@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    printf("Các số nguyên có hai chữ số và là bội của 7 là:\n");
+    for (int i = 14; i < 100; i += 7) {
+        printf("%d\n", i);
+    }
+    return 0;
+}
